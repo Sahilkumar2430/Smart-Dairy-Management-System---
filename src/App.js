@@ -1,12 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Provider } from 'react-redux';
 import { Toaster } from 'react-hot-toast';
 import { store } from './redux/store';// In your App.js, add this route
-
-
 
 
 // Layout Components
@@ -56,10 +54,13 @@ function App() {
         <Router>
           <Toaster position="top-right" />
           <Routes>
+            {/* Public Routes */}
             <Route path="/login" element={<Login />} />
             <Route path="/test-connection" element={<ConnectionTest />} />
+
+            {/* Protected Routes */}
             <Route path="/" element={<PrivateRoute><Layout /></PrivateRoute>}>
-              <Route index element={<Navigate to="/dashboard" />} />
+              <Route index element={<Navigate to="dashboard" replace />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="cattle" element={<CattleManagement />} />
               <Route path="health" element={<HealthRecords />} />
@@ -72,6 +73,9 @@ function App() {
               <Route path="tasks" element={<Tasks />} /> {/* Add this route */}
               <Route path="activities" element={<Activities />} /> {/* Add this if you create Activities page */}
             </Route>
+
+            {/* Fallback route */}
+            <Route path="*" element={<Navigate to="dashboard" replace />} />
           </Routes>
         </Router>
       </ThemeProvider>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Sahilkumar2430.github.io/Smart-Dairy-Management-System",
+  "homepage": "https://Sahilkumar2430.github.io/Smart-Dairy-Management-System---",
   "name": "smart-dairy-frontend",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,6 @@
     "axios": "^1.13.5",
     "date-fns": "^4.1.0",
     "formik": "^2.4.9",
-    "gh-pages": "^6.3.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.2.0",
     "react": "^19.2.4",
@@ -62,5 +61,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
