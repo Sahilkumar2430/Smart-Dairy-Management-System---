@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Smart-Dairy-Management-System---/static/css/main.e6c13ad2.css",
+    "main.js": "/Smart-Dairy-Management-System---/static/js/main.d7c5db6a.js",
+    "static/js/977.377a19b4.chunk.js": "/Smart-Dairy-Management-System---/static/js/977.377a19b4.chunk.js",
+    "static/js/455.3640ad58.chunk.js": "/Smart-Dairy-Management-System---/static/js/455.3640ad58.chunk.js",
+    "static/js/453.0e172843.chunk.js": "/Smart-Dairy-Management-System---/static/js/453.0e172843.chunk.js",
+    "index.html": "/Smart-Dairy-Management-System---/index.html",
+    "main.e6c13ad2.css.map": "/Smart-Dairy-Management-System---/static/css/main.e6c13ad2.css.map",
+    "main.d7c5db6a.js.map": "/Smart-Dairy-Management-System---/static/js/main.d7c5db6a.js.map",
+    "977.377a19b4.chunk.js.map": "/Smart-Dairy-Management-System---/static/js/977.377a19b4.chunk.js.map",
+    "455.3640ad58.chunk.js.map": "/Smart-Dairy-Management-System---/static/js/455.3640ad58.chunk.js.map",
+    "453.0e172843.chunk.js.map": "/Smart-Dairy-Management-System---/static/js/453.0e172843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d7c5db6a.js"
+  ]
+}
